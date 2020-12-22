@@ -1,13 +1,11 @@
 import "./App.css";
 import "antd/dist/antd.css";
-import Navbar from "./components/layout/Navbar";
-import Header from "./components/layout/Header";
+import Index from "./components/group/index";
 
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
+      <Index />
     </div>
   );
 };
