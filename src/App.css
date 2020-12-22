@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+/* NAVBAR */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+.main-header {
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.925));
+  width: 100%;
+  padding: 8px 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-header div {
+  display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-header div a {
+  font-size: 35px !important;
+  margin-left: 9px;
+}
+.main-header a {
+  font-size: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-header a:hover {
+  color: rgba(152, 226, 67, 0.808);
+  /* border-bottom: rgb(194, 11, 11) 1.5px solid; */
+  transition: all ease-in 0.3s;
+}
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 170px);
+}
+.main-nav ul {
+  list-style: none;
+}
+.main nav ul li {
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .header {
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.925));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  display: inline-block;
 }
+
+.navbar {
+
+}
+
+.navbar ul {
+  display: inline-block;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar a {
+  color: white;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.navbar a:hover {
+  border-bottom: rgb(243, 96, 96) solid 1px;
+  color: rgb(230, 230, 230);
+  transition: all ease-in 0.3s;
+}
+.navbar .welcome span {
+  margin-right: 0.6rem;
+} */
