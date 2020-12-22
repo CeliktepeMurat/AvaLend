@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 /* NAVBAR */
 
 * {
@@ -8,11 +8,11 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
 }
 .main-header {
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.882));
+  background: rgb(34, 40, 44);
   width: 100%;
   padding: 8px 16px;
 }
@@ -32,11 +32,12 @@ body {
 
 .main-header span:hover,
 .main-header a:hover {
-  color: rgba(152, 226, 67, 0.808);
-  /* border-bottom: rgb(194, 11, 11) 1.5px solid; */
+  color: #fff;
+  border-bottom: rgb(194, 11, 11) 3px solid;
   transition: all ease-in 0.3s;
   cursor: pointer;
 }
+
 .main-nav {
   display: inline-block;
   text-align: right;
@@ -48,48 +49,6 @@ body {
 .main nav ul li {
   display: inline-block;
 }
-
-/* .header {
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.925));
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.7rem 2rem;
-  z-index: 1;
-  width: 100%;
-  opacity: 0.9;
-  margin-bottom: 1rem;
-  display: inline-block;
-}
-
-.navbar {
-
-}
-
-.navbar ul {
-  display: inline-block;
-}
-.navbar ul li {
-  list-style-type: none;
-}
-
-.navbar a {
-  color: white;
-  padding: 0.45rem;
-  margin: 0 0.25rem;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-
-.navbar a:hover {
-  border-bottom: rgb(243, 96, 96) solid 1px;
-  color: rgb(230, 230, 230);
-  transition: all ease-in 0.3s;
-}
-.navbar .welcome span {
-  margin-right: 0.6rem;
-} */
 
 .addressStyle {
   color: white;
@@ -103,15 +62,29 @@ body {
   top: 80px;
   border-radius: 10px !important;
 }
+#supply {
+  background-color: rgb(247, 62, 62) !important;
+}
+#borrow {
+  background-color: rgba(99, 192, 37, 0.993) !important;
+}
+#supply:hover {
+  background-color: rgba(255, 4, 4, 0.938) !important;
+}
+#borrow:hover {
+  background-color: rgba(80, 177, 15, 0.993) !important;
+}
 
 .headerInfo {
   text-align: center;
   padding: 40px;
-  margin-top: 40px;
+  margin-top: 25px;
   background-color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   color: white;
   font-size: 24px;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 250px;
 }
 
@@ -119,4 +92,5 @@ body {
   height: 50px !important;
   width: 50px !important;
   margin-top: 80px;
+  color: rgb(0, 0, 0);
 }

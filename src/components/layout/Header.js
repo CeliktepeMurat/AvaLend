@@ -1,15 +1,20 @@
-import { Card, Row, Col } from "antd";
-import { SwapOutlined } from "@ant-design/icons";
+import { Card, Row, Col } from 'antd';
+import { SwapOutlined } from '@ant-design/icons';
 
 const Header = () => {
   return (
-    <div className="site-statistic-demo-card">
-      <Row style={{ backgroundColor: "rgba(0, 0, 0, 0.882)" }}>
-        <Col style={{ margin: "auto" }} span={12}>
-          <Card className="headerCard">
+    <div className='site-statistic-demo-card'>
+      <Row style={{ backgroundColor: 'rgb(34, 40, 44)' }}>
+        <Col style={{ margin: '50px auto', height: '100vh' }} span={12}>
+          <Card className='headerCard'>
             <div
-              style={{ float: "left", backgroundColor: "green" }}
-              className="headerInfo"
+              style={{
+                float: 'left',
+                backgroundColor: 'green',
+                marginLeft: '20px',
+              }}
+              className='headerInfo'
+              id={'supply'}
             >
               <span>Supply Balance</span>
               <br />
@@ -19,8 +24,13 @@ const Header = () => {
             <SwapOutlined />
 
             <div
-              style={{ float: "right", backgroundColor: "red" }}
-              className="headerInfo"
+              style={{
+                float: 'right',
+                backgroundColor: 'red',
+                marginRight: '20px',
+              }}
+              className='headerInfo'
+              id={'borrow'}
             >
               <span>Borrow Balance</span>
               <br />
