@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
 /* NAVBAR */
 
 * {
@@ -8,11 +8,11 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
 }
 .main-header {
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.925));
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.882));
   width: 100%;
   padding: 8px 16px;
 }
@@ -24,15 +24,18 @@ body {
   font-size: 35px !important;
   margin-left: 9px;
 }
+.main-header span,
 .main-header a {
   font-size: 20px;
   color: white;
 }
 
+.main-header span:hover,
 .main-header a:hover {
   color: rgba(152, 226, 67, 0.808);
   /* border-bottom: rgb(194, 11, 11) 1.5px solid; */
   transition: all ease-in 0.3s;
+  cursor: pointer;
 }
 .main-nav {
   display: inline-block;
@@ -87,3 +90,33 @@ body {
 .navbar .welcome span {
   margin-right: 0.6rem;
 } */
+
+.addressStyle {
+  color: white;
+  font-size: 18px;
+}
+
+.headerCard {
+  height: 250px;
+  text-align: center;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.302);
+  top: 80px;
+  border-radius: 10px !important;
+}
+
+.headerInfo {
+  text-align: center;
+  padding: 40px;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.anticon svg {
+  height: 50px !important;
+  width: 50px !important;
+  margin-top: 80px;
+}
