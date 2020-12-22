@@ -1,0 +1,56 @@
+[
+  {
+    "image": "https://app.compound.finance/images/asset_BAT.svg",
+    "name": "Basic Attention Token",
+    "apy": "0.02%",
+    "wallet": "0 BAT"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_COMP.svg",
+    "name": "Compound",
+    "apy": "1.73%",
+    "wallet": "0 COMP"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_DAI.svg",
+    "name": "Dai",
+    "apy": "3.95%",
+    "wallet": "0 DAI"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_ETH.svg",
+    "name": "Ether",
+    "apy": "0.05%",
+    "wallet": "0.0497 ETH"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_UNI.svg",
+    "name": "Uniswap",
+    "apy": "0.81%",
+    "wallet": "0 UNI"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_USDC.svg",
+    "name": "USD Coin",
+    "apy": "4.61%",
+    "wallet": "0 USDC"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_USDT.svg",
+    "name": "Tehter",
+    "apy": "4.91%",
+    "wallet": "0 USDT"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_BTC.svg",
+    "name": "Wrapped BTC",
+    "apy": "0.04%",
+    "wallet": "0 WBTC"
+  },
+  {
+    "image": "https://app.compound.finance/images/asset_ZRX.svg",
+    "name": "0x",
+    "apy": "2.63%",
+    "wallet": "0 ZRX"
+  }
+]
