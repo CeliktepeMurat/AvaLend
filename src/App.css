@@ -32,9 +32,8 @@ body {
 
 .main-header span:hover,
 .main-header a:hover {
-  color: #fff;
-  border-bottom: rgb(194, 11, 11) 3px solid;
-  transition: all ease-in 0.3s;
+  color: rgba(255, 255, 255, 0.589);
+  transition: all 0.2s;
   cursor: pointer;
 }
 
@@ -43,11 +42,22 @@ body {
   text-align: right;
   width: calc(100% - 170px);
 }
+.logo h1 {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  font-size: 30px;
+  color: white;
+  top: 6px;
+  left: 30px;
+}
 .main-nav ul {
   list-style: none;
 }
-.main nav ul li {
+.main-nav ul li {
   display: inline-block;
+  margin-left: 40px;
+  text-align: center;
+  align-items: space-between;
 }
 
 .addressStyle {
@@ -63,13 +73,13 @@ body {
   border-radius: 10px !important;
 }
 #supply {
-  background-color: rgb(247, 62, 62) !important;
+  background-color: rgb(243, 92, 92) !important;
 }
 #borrow {
   background-color: rgba(99, 192, 37, 0.993) !important;
 }
 #supply:hover {
-  background-color: rgba(255, 4, 4, 0.938) !important;
+  background-color: rgba(231, 24, 24, 0.938) !important;
 }
 #borrow:hover {
   background-color: rgba(80, 177, 15, 0.993) !important;

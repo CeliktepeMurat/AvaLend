@@ -1,18 +1,30 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Navbar = () => {
   const [ethereum, setEthereum] = useState(null);
 
   return (
-    <div className="main-header">
-      <div className="logo">
-        <a href="/home">Avalend</a>
+    <div className='main-header'>
+      <div className='logo'>
+        <h1>Avalend</h1>
       </div>
-      <nav className="main-nav">
+      <nav className='main-nav'>
         <ul>
           <li>
+            {' '}
+            <a href='/Home'>Home</a>{' '}
+          </li>
+          <li>
+            {' '}
+            <a href='/market'>Market</a>{' '}
+          </li>
+          <li>
+            {' '}
+            <a href='/groups'>Groups</a>{' '}
+          </li>
+          <li>
             {ethereum !== null ? (
-              <span className="addressStyle">
+              <span className='addressStyle'>
                 {String(ethereum[0]).substring(0, 12)}...
               </span>
             ) : (
@@ -34,7 +46,7 @@ const Navbar = () => {
 
 const getEthereum = async () => {
   let ethereum = await window.ethereum.request({
-    method: "eth_requestAccounts",
+    method: 'eth_requestAccounts',
   });
   //console.log(ethereum);
   return ethereum;
