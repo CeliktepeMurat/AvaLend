@@ -1,8 +1,8 @@
-import MyGroups from './MyGroups';
-import { PlusOutlined } from '@ant-design/icons';
-import { Layout, PageHeader, Button, Divider } from 'antd';
+import MyGroups from './MyGroups'
+import { PlusOutlined } from '@ant-design/icons'
+import { Layout, PageHeader, Button, Divider } from 'antd'
 
-const { Content, Footer } = Layout;
+const { Content, Footer } = Layout
 
 const Index = () => {
   return (
@@ -33,7 +33,7 @@ const Index = () => {
         Ant Design ©2018 Created by Ant UED
       </Footer>
     </Layout>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index
