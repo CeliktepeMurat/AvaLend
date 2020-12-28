@@ -1,5 +1,4 @@
 import { Layout, PageHeader } from 'antd';
-import Navbar from '../layout/Navbar';
 import MyGroups from './MyGroups';
 import { PlusOutlined } from '@ant-design/icons';
 const { Content, Footer } = Layout;

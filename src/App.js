@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Market from './components/layout/Header';
 import Navbar from './components/layout/Navbar';
 import Home from './components/layout/Home';
-import Groups from './components/group/MyGroups';
 
 const App = () => {
   return (

@@ -1,11 +1,12 @@
 import { Card, Row, Col } from 'antd';
 import { SwapOutlined } from '@ant-design/icons';
+import Table from './Table';
 
 const Header = () => {
   return (
     <div className='site-statistic-demo-card'>
       <Row style={{ backgroundColor: 'rgb(34, 40, 44)' }}>
-        <Col style={{ margin: '50px auto', height: '100vh' }} span={12}>
+        <Col style={{ margin: '50px auto', height: 500 }} span={12}>
           <Card className='headerCard'>
             <div
               style={{
@@ -39,6 +40,7 @@ const Header = () => {
           </Card>
         </Col>
       </Row>
+      <Table />
     </div>
   );
 };
