@@ -4,9 +4,10 @@ import Index from './components/group/index';
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Market from './components/layout/Header';
 import Navbar from './components/layout/Navbar';
-import Home from './components/layout/Home';
+
+import AllGroups from './components/group/AllGroups';
+import Header from './components/layout/Header';
 
 const App = () => {
   return (
@@ -15,9 +16,9 @@ const App = () => {
         <Navbar />
         <Router>
           <Switch>
-            <Route exact path='/market' component={Market} />
-            <Route exact path='/home' component={Home} />
-            <Route exact path='/groups' component={Index} />
+            <Route exact path='/' component={Index} />
+            <Route exact path='/market' component={Header} />
+            <Route exact path='/groups' component={AllGroups} />
           </Switch>
         </Router>
       </div>

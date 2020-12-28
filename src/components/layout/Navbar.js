@@ -12,7 +12,7 @@ const Navbar = () => {
         <ul>
           <li>
             {' '}
-            <a href='/Home'>Home</a>{' '}
+            <a href='/'>Profile</a>{' '}
           </li>
           <li>
             {' '}

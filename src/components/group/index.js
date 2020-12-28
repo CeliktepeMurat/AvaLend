@@ -1,6 +1,7 @@
-import { Layout, PageHeader } from 'antd';
 import MyGroups from './MyGroups';
 import { PlusOutlined } from '@ant-design/icons';
+import { Layout, PageHeader, Button, Divider } from 'antd';
+
 const { Content, Footer } = Layout;
 
 const Index = () => {
@@ -10,11 +11,19 @@ const Index = () => {
         <PageHeader
           title='Your Groups'
           extra={[
-            <button className='createGroupButton'>
+            <Button
+              type='primary'
+              style={{
+                backgroundColor: 'rgb(34, 40, 44)',
+                borderColor: 'rgb(34, 40, 44)',
+              }}
+              className='createGroupButton'
+            >
               Create Group <PlusOutlined />
-            </button>,
+            </Button>,
           ]}
         >
+          <Divider />
           <div>
             <MyGroups />
           </div>
